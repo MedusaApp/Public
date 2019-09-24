@@ -1,0 +1,27 @@
+{
+    "name": "medusaapp/public",
+    "description": "MEDUSA Core public assets (images, css and js)",
+    "license": "GNU GPL v3",
+    "authors": [
+        {
+            "name": "David Weiner",
+            "email": "david.l.weiner30030@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "5.8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PersonalityAssets\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PersonalityAssets\\ServiceProvider"
+            ]
+        }
+    }
+}
