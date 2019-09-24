@@ -21,7 +21,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/assets/images' => public_path('images'),
+            __DIR__.'/assets/images' => public_path('images/core'),
         ], 'public');
     }
 }
