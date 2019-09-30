@@ -1,0 +1,46 @@
+{
+  "name": "medusaapp-public-assets",
+  "version": "1.0.0",
+  "description": "MEDUSA Core public assets (images, css and js)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MedusaApp/Public.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/MedusaApp/Public/issues"
+  },
+  "homepage": "https://github.com/MedusaApp/Public#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "braces": "^2.3.2",
+    "cross-env": "^6.0.0",
+    "csv-parse": "^4.4.7",
+    "fibers": "^4.0.1",
+    "flag-icon-css": "^3.4.0",
+    "jquery": "^3.4.1",
+    "laravel-mix": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.15.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
+    "selectize": "^0.12.6",
+    "selectize-bootstrap4-theme": "^2.0.2",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
