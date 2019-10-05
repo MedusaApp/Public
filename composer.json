@@ -1,7 +1,7 @@
 {
     "name": "medusaapp/public",
     "description": "MEDUSA Core public assets (images, css and js)",
-    "license": "GNU GPL v3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "David Weiner",
