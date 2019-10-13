@@ -5,17 +5,12 @@
 @import 'variables';
 
 // Bootstrap
-//@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap';
 
 // Flag Icon CSS
 @import "~flag-icon-css/sass/flag-icon";
 
 @import "~selectize-bootstrap4-theme";
-
-//@import '~@fortawesome/fontawesome-free/scss/fontawesome';
-//@import '~@fortawesome/fontawesome-free/scss/regular';
-//@import '~@fortawesome/fontawesome-free/scss/solid';
-//@import '~@fortawesome/fontawesome-free/scss/brands';
 
 span.fa-asterisk {
     padding-top: 10px;
